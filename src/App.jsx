@@ -2,8 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import Logout from './Logout'
 import Login from './Login'
-// import Header from './Header';
-// import Footer from './Footer';
 
 function App() {
    const [isLogin,setIsLogin] = useState(0)
